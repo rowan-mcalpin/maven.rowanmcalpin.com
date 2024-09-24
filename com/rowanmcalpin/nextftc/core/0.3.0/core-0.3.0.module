@@ -71,10 +71,10 @@
           }
         },
         {
-          "group": "com.github.NoahBres",
-          "module": "MeepMeep",
+          "group": "com.github.rowan-mcalpin",
+          "module": "MeepMeep-1",
           "version": {
-            "requires": "-SNAPSHOT"
+            "requires": "actualworking"
           }
         },
         {
