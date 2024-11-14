@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.noahbres.meepmeep",
+    "module": "meepmeep",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "core",
+          "version": {
+            "requires": "0.5.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "meepmeep-2.1.0.jar",
+          "url": "meepmeep-2.1.0.jar",
+          "size": 14826187,
+          "sha512": "3df8e549921874ef3eda98da7c83f226e96d29ff5b8bac1503c5a0750fbca5155d6c4ac74e305c6d4c80f58252f5c7a0b8941d9bfd5491cb704bd70edbae9a6a",
+          "sha256": "33183423296dcdf23c0a1aa9aaa17c5d8395c40e6e3d28c193fb6014bc1384af",
+          "sha1": "193254c2e5e6763755b10645a9e73e2a2cb89381",
+          "md5": "e797050baf172cfbd989472093a9114d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.6.20-RC"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20-RC"
+          }
+        },
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "core",
+          "version": {
+            "requires": "0.5.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "meepmeep-2.1.0.jar",
+          "url": "meepmeep-2.1.0.jar",
+          "size": 14826187,
+          "sha512": "3df8e549921874ef3eda98da7c83f226e96d29ff5b8bac1503c5a0750fbca5155d6c4ac74e305c6d4c80f58252f5c7a0b8941d9bfd5491cb704bd70edbae9a6a",
+          "sha256": "33183423296dcdf23c0a1aa9aaa17c5d8395c40e6e3d28c193fb6014bc1384af",
+          "sha1": "193254c2e5e6763755b10645a9e73e2a2cb89381",
+          "md5": "e797050baf172cfbd989472093a9114d"
+        }
+      ]
+    }
+  ]
+}

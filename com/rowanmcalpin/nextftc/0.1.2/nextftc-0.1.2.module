@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rowanmcalpin",
+    "module": "nextftc",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nextftc-0.1.2.aar",
+          "url": "nextftc-0.1.2.aar",
+          "size": 188760,
+          "sha512": "8f370cf28f9baeb68fcfc59390595fa6876cb546b1baf6b91f46ce1776ecdc9131751eec725d438baf274d4dbd0fc5825da51c314877d037f30ec742d65af1fd",
+          "sha256": "d41b8e8e170184011b62b47e9471e8af9f99eaa99f3c2d6e23d1114814d3b1a0",
+          "sha1": "110a82b2be763b270822e200a6efb01460fd3c4f",
+          "md5": "98265de6cd797b39fa52369dfa36325e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.6"
+          },
+          "excludes": [
+            {
+              "group": "org.firstinspires.ftc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "core",
+          "version": {
+            "requires": "0.5.5"
+          }
+        },
+        {
+          "group": "com.github.NoahBres",
+          "module": "MeepMeep",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nextftc-0.1.2.aar",
+          "url": "nextftc-0.1.2.aar",
+          "size": 188760,
+          "sha512": "8f370cf28f9baeb68fcfc59390595fa6876cb546b1baf6b91f46ce1776ecdc9131751eec725d438baf274d4dbd0fc5825da51c314877d037f30ec742d65af1fd",
+          "sha256": "d41b8e8e170184011b62b47e9471e8af9f99eaa99f3c2d6e23d1114814d3b1a0",
+          "sha1": "110a82b2be763b270822e200a6efb01460fd3c4f",
+          "md5": "98265de6cd797b39fa52369dfa36325e"
+        }
+      ]
+    }
+  ]
+}

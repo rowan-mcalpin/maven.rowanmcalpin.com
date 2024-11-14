@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rowanmcalpin.nextftc",
+    "module": "core",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-0.4.0.aar",
+          "url": "core-0.4.0.aar",
+          "size": 197567,
+          "sha512": "90e9c306e9929f332b7d429a7bec2ab068673e588750513d06ffda6149d5248f139efbe5ea0a447286fd862f1c70672fb04bf505a3fefecdbc49bb588bdd9b51",
+          "sha256": "c6f5bb88b736353286c3322ccd5aff241e07664f428004155642388fbbb1ff68",
+          "sha1": "fc01566810e934fd4f779d07e2dd5ffcee60eddc",
+          "md5": "53c4026efffd3bf242a338a0e4005785"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.6"
+          },
+          "excludes": [
+            {
+              "group": "org.firstinspires.ftc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "core",
+          "version": {
+            "requires": "0.5.5"
+          }
+        },
+        {
+          "group": "com.github.rowan-mcalpin",
+          "module": "MeepMeep-1",
+          "version": {
+            "requires": "actualworking"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.4.0.aar",
+          "url": "core-0.4.0.aar",
+          "size": 197567,
+          "sha512": "90e9c306e9929f332b7d429a7bec2ab068673e588750513d06ffda6149d5248f139efbe5ea0a447286fd862f1c70672fb04bf505a3fefecdbc49bb588bdd9b51",
+          "sha256": "c6f5bb88b736353286c3322ccd5aff241e07664f428004155642388fbbb1ff68",
+          "sha1": "fc01566810e934fd4f779d07e2dd5ffcee60eddc",
+          "md5": "53c4026efffd3bf242a338a0e4005785"
+        }
+      ]
+    }
+  ]
+}
