@@ -16,7 +16,7 @@ export default function Footer() {
                 setLastUpdate(`${date.getMonth()+1}/${date.getDate()}/${date.getFullYear()}`);
             }
         };
-        xhttp.open("GET", "https://api.github.com/repos/rowan-mcalpin/rowanmcalpin.com/branches/gh-pages", true);
+        xhttp.open("GET", "https://api.github.com/repos/rowan-mcalpin/maven.rowanmcalpin.com/branches/gh-pages", true);
         xhttp.send();
     }
 
