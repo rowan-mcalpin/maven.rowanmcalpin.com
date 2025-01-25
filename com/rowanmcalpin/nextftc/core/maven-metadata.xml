@@ -3,8 +3,8 @@
   <groupId>com.rowanmcalpin.nextftc</groupId>
   <artifactId>core</artifactId>
   <versioning>
-    <latest>0.6.0-dev-components</latest>
-    <release>0.6.0-dev-components</release>
+    <latest>0.5.7-beta</latest>
+    <release>0.5.7-beta</release>
     <versions>
       <version>0.1.2</version>
       <version>0.2.0</version>
@@ -29,7 +29,8 @@
       <version>0.5.5-beta2</version>
       <version>0.5.6-beta</version>
       <version>0.6.0-dev-components</version>
+      <version>0.5.7-beta</version>
     </versions>
-    <lastUpdated>20250124171157</lastUpdated>
+    <lastUpdated>20250125025917</lastUpdated>
   </versioning>
 </metadata>
