@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rowanmcalpin.nextftc",
+    "module": "ftc",
+    "version": "0.5.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftc-0.5.9.aar",
+          "url": "ftc-0.5.9.aar",
+          "size": 109364,
+          "sha512": "506b38a927b1ef61e0d89ad8e036f32af2418927da7dbeaa2bf80a2165ec736f2d59ab96f7a6a906517e4ed610a7b96b306b139b8122ba9a305d5d35981f81e3",
+          "sha256": "1fa4c8055d851445fde74a55c67b5ab14cb532b48ad086bc941f546c1c201c92",
+          "sha1": "d490e80ab0d0aee14a7a2dc53ede7b847f6c414c",
+          "md5": "d4a2182004f3213ab7262b0722ec64b5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rowanmcalpin.nextftc",
+          "module": "core",
+          "version": {
+            "requires": "0.5.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftc-0.5.9.aar",
+          "url": "ftc-0.5.9.aar",
+          "size": 109364,
+          "sha512": "506b38a927b1ef61e0d89ad8e036f32af2418927da7dbeaa2bf80a2165ec736f2d59ab96f7a6a906517e4ed610a7b96b306b139b8122ba9a305d5d35981f81e3",
+          "sha256": "1fa4c8055d851445fde74a55c67b5ab14cb532b48ad086bc941f546c1c201c92",
+          "sha1": "d490e80ab0d0aee14a7a2dc53ede7b847f6c414c",
+          "md5": "d4a2182004f3213ab7262b0722ec64b5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ftc-0.5.9-sources.jar",
+          "url": "ftc-0.5.9-sources.jar",
+          "size": 80711,
+          "sha512": "5914aaef68b97a52fcdd07986fec3d9908ac180e415e68f70abb5952f22a516114e41d00dedcaf3755b8940d485a49fb3e855b1bfe034e2b84002bebb582eb34",
+          "sha256": "ace03a9fa1f3978bdfe192ac6e5d23309ffe129338c2006d6b74712b5902b4b2",
+          "sha1": "046aef08053f141cff355abc27f9ac2966913fd6",
+          "md5": "41df21ba0e93f8eb2f4a7ab900de7ced"
+        }
+      ]
+    }
+  ]
+}
