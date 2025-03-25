@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc",
+    "module": "nextcontrol",
+    "version": "1.0.0-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nextcontrol-1.0.0-rc.1.jar",
+          "url": "nextcontrol-1.0.0-rc.1.jar",
+          "size": 64059,
+          "sha512": "0dbbf3ea9d24b30877179fa8d0a831b9e1da5f856b87435d44a6a828060b0725d24285e8cb58bd93e4f3eaec9de5f9fb38bc1a461aec6c509b31b29a484539e0",
+          "sha256": "dd0f9556b6b018e7a595067981643a6a0c09fb145614ec7db71823897bb7c57d",
+          "sha1": "6ea6c06100e5167b83c60d40df9c72013cf732f2",
+          "md5": "bc681cf65d1101440715dd317f8f7037"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nextcontrol-1.0.0-rc.1.jar",
+          "url": "nextcontrol-1.0.0-rc.1.jar",
+          "size": 64059,
+          "sha512": "0dbbf3ea9d24b30877179fa8d0a831b9e1da5f856b87435d44a6a828060b0725d24285e8cb58bd93e4f3eaec9de5f9fb38bc1a461aec6c509b31b29a484539e0",
+          "sha256": "dd0f9556b6b018e7a595067981643a6a0c09fb145614ec7db71823897bb7c57d",
+          "sha1": "6ea6c06100e5167b83c60d40df9c72013cf732f2",
+          "md5": "bc681cf65d1101440715dd317f8f7037"
+        }
+      ]
+    }
+  ]
+}
