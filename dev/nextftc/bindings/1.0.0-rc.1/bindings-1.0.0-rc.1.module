@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc",
+    "module": "bindings",
+    "version": "1.0.0-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bindings-1.0.0-rc.1.jar",
+          "url": "bindings-1.0.0-rc.1.jar",
+          "size": 25455,
+          "sha512": "88dd72317fda876af3e9c55e88713d609d09f0759c3b0112b32d889886704d4de7ea41ff3485385b1e37b5181f721d3961c6b58e0e25cba859becde51b1cb83a",
+          "sha256": "2a32934e2e8b3000da929c185dfddc62efdc01913c7cd70c7ed0bf88e2afdea3",
+          "sha1": "3ef67c6d3215d24d6d2024d4f5fd772bc9dadb52",
+          "md5": "995114da775650dfc300005616f1d12a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bindings-1.0.0-rc.1.jar",
+          "url": "bindings-1.0.0-rc.1.jar",
+          "size": 25455,
+          "sha512": "88dd72317fda876af3e9c55e88713d609d09f0759c3b0112b32d889886704d4de7ea41ff3485385b1e37b5181f721d3961c6b58e0e25cba859becde51b1cb83a",
+          "sha256": "2a32934e2e8b3000da929c185dfddc62efdc01913c7cd70c7ed0bf88e2afdea3",
+          "sha1": "3ef67c6d3215d24d6d2024d4f5fd772bc9dadb52",
+          "md5": "995114da775650dfc300005616f1d12a"
+        }
+      ]
+    }
+  ]
+}
