@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rowanmcalpin.nextftc",
+    "module": "hardware",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hardware-0.8.0.aar",
+          "url": "hardware-0.8.0.aar",
+          "size": 29566,
+          "sha512": "65b559ba1c5f3fdd849f9ecbf3ddd4159ba8c646c68bc8ab09c262e662bee6d5673c15f118b2b67ad378b750535960df692486da0fc9e5d84c5a31e5591f93b1",
+          "sha256": "0580ffcae8474854e76e4c0b506de325167649025eb38b17a96f46d32e6c16e1",
+          "sha1": "e520a4d0bd4d5f77c533021acd78eac270876039",
+          "md5": "c4a7cc4e55f5e47524c8c855bfcd53bd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rowanmcalpin.nextftc",
+          "module": "core",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "dev.nextftc",
+          "module": "nextcontrol",
+          "version": {
+            "requires": "1.0.0-rc.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hardware-0.8.0.aar",
+          "url": "hardware-0.8.0.aar",
+          "size": 29566,
+          "sha512": "65b559ba1c5f3fdd849f9ecbf3ddd4159ba8c646c68bc8ab09c262e662bee6d5673c15f118b2b67ad378b750535960df692486da0fc9e5d84c5a31e5591f93b1",
+          "sha256": "0580ffcae8474854e76e4c0b506de325167649025eb38b17a96f46d32e6c16e1",
+          "sha1": "e520a4d0bd4d5f77c533021acd78eac270876039",
+          "md5": "c4a7cc4e55f5e47524c8c855bfcd53bd"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "hardware-0.8.0-sources.jar",
+          "url": "hardware-0.8.0-sources.jar",
+          "size": 33539,
+          "sha512": "dfaf9754d4338042ae3b77c2b19d8e3a062e14e7622bf2bd724867a12d5af8df3bee8af0707d00ae71301ffc585146e11f4521ad6ae8cb4bf51560e115565e0e",
+          "sha256": "adcb6024dd6f74acb3d1778c3a21fc1064a94cdf185cf69cf7d95e8cca2c3935",
+          "sha1": "7182dc21b403d61349c8e0aac50236288976532e",
+          "md5": "30ba91b39a07d2ef8909374c4ca28381"
+        }
+      ]
+    }
+  ]
+}
