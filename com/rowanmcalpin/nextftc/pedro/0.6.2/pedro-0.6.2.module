@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rowanmcalpin.nextftc",
+    "module": "pedro",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pedro-0.6.2.aar",
+          "url": "pedro-0.6.2.aar",
+          "size": 18469,
+          "sha512": "98596fa291c4fb34bed6f23e338fe5bafd559d2d84c8caced82eba21cd33180f338c0aa95dc4510da9fa2955228098405788f15f913beac2f807940b6ff53d21",
+          "sha256": "660b250eabe6de10afa9986eb646f8925aafa463c3b89bb7a48f8c6ff9ac2c8c",
+          "sha1": "4c5b96fea12428e419e581d521525afbb4f857c6",
+          "md5": "8dc8fd1102f7cd51cb329f7b536366f0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Hardware",
+          "version": {
+            "requires": "10.1.1"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "RobotCore",
+          "version": {
+            "requires": "10.1.1"
+          }
+        },
+        {
+          "group": "com.rowanmcalpin.nextftc",
+          "module": "core",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "com.rowanmcalpin.nextftc",
+          "module": "ftc",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pedro-0.6.2.aar",
+          "url": "pedro-0.6.2.aar",
+          "size": 18469,
+          "sha512": "98596fa291c4fb34bed6f23e338fe5bafd559d2d84c8caced82eba21cd33180f338c0aa95dc4510da9fa2955228098405788f15f913beac2f807940b6ff53d21",
+          "sha256": "660b250eabe6de10afa9986eb646f8925aafa463c3b89bb7a48f8c6ff9ac2c8c",
+          "sha1": "4c5b96fea12428e419e581d521525afbb4f857c6",
+          "md5": "8dc8fd1102f7cd51cb329f7b536366f0"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pedro-0.6.2-sources.jar",
+          "url": "pedro-0.6.2-sources.jar",
+          "size": 19437,
+          "sha512": "5f1a6ac3b3ad312cef622c3868fc0cd9f3be17b0b85dea0201e012ec5c20bb5ab00a6ed8b96844d2d5a092bd41fff7316cdbebaa4f5a91dcc82c3ab1f81b7a89",
+          "sha256": "576ab8ad09bfc57986b34913d7185cde34813dd2f7c936f8f2e3e25756994966",
+          "sha1": "120cb185ce60aaffd9c4899368e0190ec379a918",
+          "md5": "d8ca2b940abb1cde06600d303918c0c4"
+        }
+      ]
+    }
+  ]
+}
